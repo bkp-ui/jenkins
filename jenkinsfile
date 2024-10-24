@@ -3,17 +3,17 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'echo "new file build"' 
+                // 
             }
         }
         stage('Test') { 
             steps {
-                sh 'echo "test new file"'
+                // 
             }
         }
         stage('Deploy') { 
             steps {
-                sh 'echo "deploy new files"
+                // 
             }
         }
     }
